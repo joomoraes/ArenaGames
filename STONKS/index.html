@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+       <!-- Game canvas -->
+            <canvas id="c"></canvas>
+
+            <!-- Gameplay HUD -->
+            <div class="hud">
+                <div class="hud__score">
+                    <div class="score-lbl"></div>
+                    <div class="cube-count-lbl"></div>
+                </div>
+                <div class="pause-btn"><div></div></div>
+                <div class="slowmo">
+                    <div class="slowmo__bar"></div>
+                </div>
+            </div>
+
+            <!-- Menu System -->
+            <div class="menus">
+                <div class="menu menu--main">
+                    <h1>JOAO PEDRO</h1>
+                    <button type="button" class="play-normal-btn">PLAY NO JAO</button>
+                    <button type="button" class="play-casual-btn">JOAO CASUAL</button>
+                    <div class="credits">jogo feito por: <a href="https://cmiller.tech">Joao Inc</a></div>
+                </div>
+                <div class="menu menu--pause">
+                    <h1>PAL SADO</h1>
+                    <button type="button" class="resume-btn">RESUME JOAO</button>
+                    <button type="button" class="menu-btn--pause">JOAO MENU</button>
+                </div>
+                <div class="menu menu--score">
+                    <h1>PERDEU NOOB</h1>
+                    <h2>PONTUAÇÃO</h2>
+                    <div class="final-score-lbl"></div>
+                    <div class="high-score-lbl"></div>
+                    <button type="button" class="play-again-btn">JOGAR DE NOVO</button>
+                    <button type="button" class="menu-btn--score">MENU JOAO</button>
+                </div>
+            </div>
+
+    </body>
+        <!--Scripts-->
+        <script type="text/javascript" src="js/index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>
